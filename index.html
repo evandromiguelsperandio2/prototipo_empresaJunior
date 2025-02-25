@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Out of the Box</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <img src="../img/logo_dataootb.svg" alt="Data Out of the Box Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Data Out of the Box</h1>
+        <p>Soluções em Análise de Dados, Chatbots e Machine Learning</p>
+        <a href="#servicos" class="btn">Conheça nossos serviços</a>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <div class="sobre-container">
+            <div class="sobre-texto">
+                <p>
+                    A <strong>Data Out of the Box</strong> é uma empresa júnior fundada em 2023 por alunos do <strong>Senai Suíço-Brasileiro</strong>, localizado em Santo Amaro, São Paulo. Nossa missão é trazer soluções inovadoras e acessíveis em tecnologia, análise de dados, criação de chatbots e machine learning para empresas de todos os portes.
+                </p>
+                <p>
+                    Iniciamos nossas atividades com o objetivo de unir o conhecimento técnico adquirido em sala de aula com as demandas reais do mercado. Acreditamos que a tecnologia deve ser descomplicada e acessível, e é por isso que nos dedicamos a desenvolver soluções personalizadas que atendam às necessidades específicas de cada cliente.
+                </p>
+                <p>
+                    Atuamos como parceiros estratégicos, vivenciando o dia a dia das organizações para identificar desafios e oportunidades. Nossa equipe é composta por jovens talentosos, altamente capacitados e comprometidos com a excelência. Apesar de sermos uma empresa júnior, nossa dedicação e profissionalismo nos tornam uma escolha confiável para quem busca inovação e qualidade.
+                </p>
+                <p>
+                    Nossos valores são baseados no <strong>respeito</strong>, na <strong>inovação</strong> e no <strong>comprometimento</strong> com a satisfação dos nossos clientes. Buscamos sempre oferecer soluções que não apenas resolvam problemas, mas também agreguem valor e impulsionem o crescimento dos negócios.
+                </p>
+                <p>
+                    Acreditamos que a tecnologia deve ser uma aliada, e não uma barreira. Por isso, trabalhamos para descomplicar processos, oferecendo ferramentas intuitivas e eficientes, sempre com um atendimento humano e próximo.
+                </p>
+            </div>
+            <div class="sobre-imagem">
+                <img src="../img/fantasminha.png" alt="Equipe Data Out of the Box">
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-container">
+            <div class="servico">
+                <i class="fas fa-chart-line"></i>
+                <h3>Análise de Dados</h3>
+                <p>Transformamos dados em insights valiosos para o seu negócio.</p>
+            </div>
+            <div class="servico">
+                <i class="fas fa-robot"></i>
+                <h3>Chatbots</h3>
+                <p>Desenvolvemos chatbots inteligentes para melhorar a interação com seus clientes.</p>
+            </div>
+            <div class="servico">
+                <i class="fas fa-brain"></i>
+                <h3>Machine Learning</h3>
+                <p>Criamos modelos preditivos para otimizar processos e tomar decisões mais assertivas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="localizacao">
+        <h2>Localização</h2>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.827853850618!2d-46.699868684474!3d-23.65146617001863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50f6b7e3c7a5%3A0x1b2b3b4b5b6b7b8b!2sSenai%20Su%C3%AD%C3%A7o-Brasileiro%20Santo%20Amaro!5e0!3m2!1spt-BR!2sbr!4v1633024000000!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="form-contato">
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Data Out of the Box. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+</html>
